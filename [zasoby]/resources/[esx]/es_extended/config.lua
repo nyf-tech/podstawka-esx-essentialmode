@@ -9,5 +9,6 @@ Config.DisableWantedLevel   = true
 Config.EnableHud            = false -- enable the default hud? Display current job and accounts (black, bank & cash)
 
 Config.PaycheckInterval     = 7 * 60000
+Config.MaxPlayers           = GetConvarInt('sv_maxclients', 255)
 
 Config.EnableDebug          = false
